@@ -1,0 +1,74 @@
+<html>
+ <head>
+ </head>
+ <body>
+    <h1>Formulário HTML Completo</h1>
+  <form method = "post/get/mail" action = "recebe.php">
+	<legend>Dados Pessoais</legend>
+	 Nome:
+	<input type="text" name="nome" placeholder="Digite seu nome">
+	 Email:
+	<input type="email" name="email">
+	Senha:
+	<input type="password" name="senha">
+	 Telefone:
+	<input type="tel" name="telefone">
+	Idade:
+	<input type="number" name="idade" min="0" max="120">
+	Data de nascimento:
+	<input type="date" name="nascimento">
+	Hora:
+	<input type="time" name="hora">
+	Cor favorita:
+	<input type="color" name="cor">
+	Site pessoal:
+	<input type="url" name="site">
+	Pesquisar:
+	<input type="search" name="busca">
+	
+	<legend>Opções</legend>
+	Sexo:
+	<input type="radio" name="sexo" value="masculino"> Masculino
+	<input type="radio" name="sexo" value="feminino"> Feminino
+	<br><br>
+	
+	 Interesses:
+	<input type="checkbox" name="interesse" value="musica"> Música
+	<input type="checkbox" name="interesse" value="esporte"> Esporte
+	<input type="checkbox" name="interesse" value="tecnologia"> Tecnologia
+	<br><br>
+	
+	Estado:
+	<select name="estado">
+		<option value="">Selecione</option>
+		<option>MG</option>
+		<option>SP</option>
+		<option>RJ</option>
+	</select>
+	
+	Observações:
+	<textarea name="observacoes" rows="4" cols="50"></textarea>
+	
+	<legend>Arquivos</legend>
+	
+	Enviar arquivo:
+	<input type="file" name="arquivo">
+	
+	<legend>Campos Extras</legend>
+	
+	Campo oculto:
+	<input type="hidden" name="oculto" value="123">
+	Somente leitura:
+	<input type="text" value="Não pode alterar" readonly>
+	Desabilitado:
+	<input type="text" value="Desativado" disabled>
+	
+	<legend>Ações</legend>
+	
+	<input type="submit" value="Enviar">
+	<input type="reset" value="Limpar">
+	<input type="button" value="Botão comum">
+	
+   </form>
+  </body>
+</html>
