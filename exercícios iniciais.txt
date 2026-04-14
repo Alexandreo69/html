@@ -1,0 +1,126 @@
+Exercícios de Entrada e Saída de Dados (print e input)
+Exercício 1: Peça ao usuário para digitar seu nome e imprima uma mensagem de boas-vindas.
+Exercício 2: Solicite ao usuário dois números e exiba a soma deles.
+Exercício 3: Peça ao usuário para digitar sua idade e exiba a idade em meses.
+Exercício 4: Solicite ao usuário seu nome e idade e exiba uma mensagem formatada.
+Exercício 5: Peça ao usuário para digitar uma frase e mostre a mesma frase em letras maiúsculas.
+Exercício 6: Solicite ao usuário seu nome completo e exiba a quantidade de caracteres que ele possui.
+Exercício 7: Peça ao usuário para digitar três números e exiba a média deles
+Exercício 8: Solicite ao usuário um número e exiba o quadrado desse número.
+Exercício 9: Peça ao usuário para digitar uma palavra e exiba essa palavra ao contrário
+Exercício 10: Solicite ao usuário para digitar seu sobrenome e exiba uma mensagem de despedida personalizada.
+
+Exercícios com Operações Matemáticas (usando print e input)
+Exercício 1: Peça ao usuário para digitar dois números e exiba o produto desses números.
+Exercício 2: Solicite ao usuário um número e calcule a raiz quadrada desse número.
+Exercício 3: Peça ao usuário três números e exiba o maior deles.
+Exercício 4: Solicite ao usuário o valor do raio de um círculo e calcule a área do círculo.
+Exercício 5: Peça ao usuário dois números e exiba o quociente da divisão do primeiro pelo segundo.
+Exercício 6: Solicite ao usuário a base e a altura de um triângulo e calcule a área do triângulo
+Exercício 7: Peça ao usuário para digitar dois números e calcule a diferença do maior pelo menor.
+Exercício 8: Solicite ao usuário o comprimento dos lados de um retângulo e calcule o perímetro do retângulo.
+Exercício 9: Peça ao usuário para digitar dois números e exiba o resultado da multiplicação dos dois números pelo quadrado do primeiro número.
+Exercício 10: Solicite ao usuário a base e a altura de um paralelogramo e calcule a área do paralelogramo.
+
+Exercícios com Comandos Condicionais (usando operadores lógicos)
+Exercício 1: Peça ao usuário um número e verifique se ele é positivo, negativo ou zero.
+Exercício 2: Solicite ao usuário sua idade e verifique se ele é maior de idade (18 anos ou mais).
+Exercício 4: Solicite ao usuário uma letra e verifique se ela é uma vogal ou consoante.
+Exercício 5: Peça ao usuário três números e verifique se eles formam um triângulo (soma de dois lados deve ser maior que o terceiro lado).
+Exercício 6: Solicite ao usuário um ano e verifique se é um ano bissexto.
+Exercício 7: Peça ao usuário uma senha e verifique se ela é igual a uma senha predefinida.
+Exercício 8: Solicite ao usuário três números e verifique se eles estão em ordem crescente.
+Exercício 9: Peça ao usuário um número e verifique se ele é par ou ímpar.
+Exercício 10: Solicite ao usuário dois números e uma operação (soma, subtração, multiplicação, divisão) e realize a operação solicitada.
+
+Exercícios com o Comando WHILE
+Exercício 1: Peça ao usuário para digitar um número e exiba todos os números de 1 até o número digitado usando um loop while.
+Exercício 2: Solicite ao usuário um número e exiba a soma de todos os números de 1 até o número digitado usando um loop while.
+Exercício 3: Peça ao usuário um número e exiba os números pares de 1 até o número digitado usando um loop while.
+Exercício 4: Solicite ao usuário um número e exiba a tabuada desse número usando um loop while.
+Exercício 5: Peça ao usuário para digitar uma palavra e exiba cada letra da palavra em uma linha separada usando um loop while.
+Exercício 6: Solicite ao usuário para digitar números até que o número 0 seja digitado. Ao final, exiba a soma dos números digitados.
+Exercício 7: Peça ao usuário um número e exiba o fatorial desse número usando um loop while.
+Exercício 8: Solicite ao usuário um número e exiba a sequência de Fibonacci até o número digitado usando um loop while.
+Exercício 9: Peça ao usuário um número e exiba todos os divisores desse número usando um loop while.
+Exercício 10: Solicite ao usuário para digitar uma senha até que a senha correta seja digitada. A senha correta é "1234".
+
+Exercícios com o Comando FOR
+Exercício 1: Peça ao usuário para digitar um número e exiba todos os números de 1 até o número digitado usando um loop for.
+Exercício 2: Solicite ao usuário um número e exiba a soma de todos os números de 1 até o número digitado usando um loop for.
+Exercício 3: Peça ao usuário um número e exiba os números pares de 1 até o número digitado usando um loop for.
+Exercício 4: Solicite ao usuário um número e exiba a tabuada desse número usando um loop for.
+Exercício 5: Peça ao usuário para digitar uma palavra e exiba cada letra da palavra em uma linha separada usando um loop for.
+Exercício 6: Solicite ao usuário para digitar 5 números e exiba a soma desses números usando um loop for.
+Exercício 7: Peça ao usuário um número e exiba o fatorial desse número usando um loop for.
+Exercício 8: Solicite ao usuário um número e exiba a sequência de Fibonacci até o número digitado usando um loop for.
+Exercício 9: Peça ao usuário um número e exiba todos os divisores desse número usando um loop for.
+Exercício 10: Solicite ao usuário para digitar 10 números e exiba o maior número digitado usando um loop for.
+
+Exercícios com o Comando RANGE
+Exercício 1: Exiba todos os números de 0 a 20 usando range.
+Exercício 2: Exiba todos os números pares de 0 a 20 usando range.
+Exercício 3: Exiba todos os números ímpares de 1 a 20 usando range.
+Exercício 4: Exiba a tabuada do 5 usando range.
+Exercício 5: Exiba todos os múltiplos de 3 entre 0 e 30 usando range.
+Exercício 6: Exiba os números de 10 a 1 em ordem decrescente usando range.
+Exercício 7: Exiba os números de 5 a 50 com incrementos de 5 usando range.
+Exercício 8: Exiba a soma dos números de 1 a 100 usando range.
+Exercício 9: Exiba a soma dos números pares de 1 a 100 usando range.
+Exercício 10: Exiba a soma dos números ímpares de 1 a 100 usando range.
+
+Questões com Listas
+Exercício 1: Crie uma lista chamada frutas contendo as frutas: maçã, banana, laranja e morango.
+Exercício 2: Como você adiciona a fruta "uva" à lista frutas?
+Exercício 3: Como você remove a fruta "banana" da lista frutas?
+Exercício 4: Como você acessa o terceiro elemento da lista frutas?
+Exercício 5: Como você altera o segundo elemento da lista frutas para "abacaxi"?
+Exercício 6: Como você obtém o comprimento (número de elementos) da lista frutas?
+Exercício 7: Como você cria uma lista chamada numeros contendo os números de 1 a 5?
+Exercício 8: Como você cria uma sublista contendo os três primeiros elementos da lista numeros?
+Exercício 9: Como você inverte a ordem dos elementos da lista numeros?
+Exercício 10: Como você ordena a lista numeros em ordem crescente?
+
+
+Questões com Tuplas
+Exercício 1: Crie uma tupla chamada cores contendo as cores: vermelho, verde e azul.
+Exercício2 : Como você acessa o segundo elemento da tupla cores?
+Exercício 3: Como você verifica se a cor "verde" está na tupla cores?
+Exercício 4: Como você obtém o índice do elemento "azul" na tupla cores?
+Exercício 5: Como você conta quantas vezes a cor "vermelho" aparece na tupla cores?
+Exercício 6: Como você obtém o comprimento (número de elementos) da tupla cores?
+Exercício 7: Como você converte a tupla cores em uma lista?
+Exercício 8: Como você cria uma tupla contendo apenas um elemento "amarelo"?
+Exercício 9: Como você combina duas tuplas tupla1 = (1, 2) e tupla2 = (3, 4) em uma única tupla?
+Exercício 10: Como você desempacota a tupla coordenadas = (10, 20) em duas variáveis x e y?
+
+Questões com Dicionários
+Exercício 1: Crie um dicionário chamado aluno com as chaves nome, idade e nota, e os valores João, 20 e 8.5, respectivamente.
+Exercício 2: Como você acessa o valor associado à chave nome no dicionário aluno?
+Exercício 3: Como você adiciona uma nova chave curso com o valor Matemática ao dicionário aluno?
+Exercício 4: Como você remove a chave idade do dicionário aluno?
+Exercício 5: Como você verifica se a chave nota está presente no dicionário aluno?
+Exercício 6: Como você obtém todas as chaves do dicionário aluno?
+Exercício 7: Como você obtém todos os valores do dicionário aluno?
+Exercício 8: Como você obtém todos os pares chave-valor do dicionário aluno?
+Exercício 9: Como você limpa todos os elementos do dicionário aluno?
+Exercício 10: Como você obtém o valor associado à chave nome com um método que não gera erro se a chave não existir?
+
+Exercícios de matrizes
+
+Exercício 1: Crie uma matriz 3x3 e inicialize todos os elementos com zero.
+Exercício 2: Acesse o elemento na segunda linha e terceira coluna da matriz matriz.
+Exercício 3: Modifique o elemento na primeira linha e segunda coluna da matriz matriz para 10.
+Exercício 4: Calcule a soma de todos os elementos da matriz matriz.
+Exercício 5: Transponha a matriz matriz (troque linhas por colunas).
+Exercício 6: Crie uma matriz identidade 4x4.
+Exercício 7: Multiplique todos os elementos da matriz matriz por um escalar 2.
+Exercício 8: Somar Duas Matrizes
+Descrição: Some duas matrizes A e B de mesmo tamanho e armazene o resultado na matriz C.
+Exercício 9: Multiplique duas matrizes A (3x2) e B (2x3) e armazene o resultado na matriz C.
+Exercício 10: Calcular a Diagonal Principal da Matriz
+Descrição: Calcule a soma dos elementos da diagonal principal da matriz matriz.
+
+
+
+
