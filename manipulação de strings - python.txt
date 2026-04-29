@@ -1,0 +1,74 @@
+ o Python utiliza métodos de string, 
+que são funções aplicadas diretamente ao objeto de texto.
+Principais métodos de manipulação de strings:
+
+1. Modificação de Caixa (Case)
+Esses métodos alteram como as letras maiúsculas e minúsculas aparecem.
+Método		Descrição				Exemplo
+.upper		()Transforma tudo em maiúsculas.	"oi".upper() → "OI"
+.lower		()Transforma tudo em minúsculas.	"OI".lower() → "oi"
+.capitalize()	Primeira letra da frase em maiúscula.	"ola mundo".capitalize() 
+							→ "Ola mundo"
+.title()	Primeira letra de cada palavra 		"ana rosa".title() 
+		em maiúscula.				→ "Ana Rosa"
+.swapcase()	Inverte maiúsculas e minúsculas.	"PyThOn".swapcase() 
+							→ "pYtHoN"
+2. Busca e Substituição
+Para encontrar partes do texto ou trocar um pedaço por outro.
+
+.replace(antigo, novo): Substitui uma parte do texto por outra.
+"banana".replace("a", "o") → "bonono"
+
+.find(sub): Retorna a posição (índice) da primeira ocorrência. 
+Se não achar, retorna -1.
+"Python".find("th") → 2
+
+.count(sub): Conta quantas vezes um termo aparece.
+"marmelada".count("ma") → 2
+
+.startswith(prefixo) / .endswith(sufixo): Verifica se a string 
+começa ou termina com algo (retorna True ou False).
+"arquivo.pdf".endswith(".pdf") → True
+
+3. Limpeza e Espaçamento
+Essenciais para processar dados de formulários ou arquivos que vêm com espaços inúteis.
+
+.strip(): Remove espaços em branco (ou caracteres escolhidos) do início 
+e do fim.
+"  olá  ".strip() → "olá"
+
+.lstrip() / .rstrip(): Remove apenas da esquerda (left) 
+ou da direita (right).
+
+.center(largura): Centraliza o texto em uma largura específica, 
+preenchendo com espaços.
+"oi".center(10) → "    oi    "
+
+4. Divisão e Junção (Splitting & Joining)
+Talvez os mais poderosos para converter strings em listas e vice-versa.
+
+.split(separador)
+Divide a string em uma lista baseada em um separador (o padrão é o espaço).
+
+texto = "python,java,c++"
+lista = texto.split(",") 
+# Resultado: ['python', 'java', 'c++']
+
+.join(iterável)
+O inverso do split. Une itens de uma lista em uma única string.
+
+lista = ["25", "12", "2024"]
+data = "/".join(lista)
+# Resultado: "25/12/2024"
+
+5. Verificação de Tipo (Booleanos)
+Usados para validar o que existe dentro da string. 
+Todos retornam True ou False.
+
+.isalpha(): Apenas letras.
+
+.isnumeric(): Apenas números.
+
+.isalnum(): Letras ou números (alfanumérico).
+
+.isspace(): Apenas espaços em branco.
