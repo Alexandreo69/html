@@ -1,0 +1,63 @@
+noCursor();
+var fundo = createSprite(200, 200);
+fundo.setAnimation("background");
+var abelha = createSprite(200, 200);
+function criaAbelha(){
+  return abelha.setAnimation("bee_1");
+}
+criaAbelha();
+var mira = createSprite(200, 200);
+mira.setAnimation("mira");
+var contador = 0;
+var contador1 = 0;
+createEdgeSprites();
+mira.scale = 0.6;
+abelha.x = 00;
+abelha.scale = 0.15;
+abelha.y = randomNumber(0, 100);
+abelha.velocityX = 5+ contador1/3;
+abelha.velocityY = 5+ contador1/2;
+function draw() {
+  drawSprites();
+  abelha.bounceOff(edges[0]); 
+  abelha.bounceOff(edges[1]);
+  abelha.bounceOff(edges[2]);
+  mira.position.x = World.mouseX;
+  mira.position.y = World.mouseY;
+  if (mousePressedOver(abelha)) {
+    playSound("sound://category_explosion/8bit_explosion.mp3", false);
+    abelha.destroy();
+    abelha = createSprite(200, 200);  
+    abelha.setAnimation("bee_1");
+    abelha.scale = 0.15;
+    abelha.x = 0;
+    abelha.y = randomNumber(0,100);
+    abelha.velocityX =5 + contador1/3;
+    abelha.velocityY =(5 + contador1/3)*randomNumber(-1,1);
+    contador1 += 1;
+    }
+  textSize(30);
+  fill("black");
+  text("mortas "+contador1, 80, 40);
+  text("ferroadas "+contador, 220, 40);
+  if(contador1 >= 10){
+    fundo.setAnimation("background1");
+    abelha.scale = 0.17;
+  }
+   if(contador1 >= 20){
+    fundo.setAnimation("background");
+    abelha.scale = 0.2;
+   }
+  if (abelha.y > 400) {
+    abelha.y = randomNumber(0,100);
+    abelha.velocityX = 10+ contador1/3;
+    abelha.velocityY = randomNumber(-10,5);
+    contador +=1;
+    if( contador >= 3){
+      fill("red");
+      textSize(40);
+      text("Acabou o Jogo!", 80, 220);
+      noLoop(); 
+    }
+  }
+}
