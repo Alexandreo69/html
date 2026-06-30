@@ -1,0 +1,70 @@
+normalize a tabela para que ela atenda às três formas normais (1FN, 2FN e 3FN). 
+Suponhamos que temos uma tabela chamada Pedidos com os seguintes campos:
+
+ID do Pedido
+Data do Pedido
+Nome do Cliente
+Endereço do Cliente
+Produto
+Quantidade
+Preço Unitário
+Preço Total do Pedido
+
+Primeira Forma Normal (1FN)
+Para estar na 1FN, a tabela deve ter apenas valores atômicos (não repetidos) e cada campo deve conter apenas um valor por registro.
+
+Dividimos os campos compostos e garantimos que cada registro é único:
+
+Tabela Pedidos (1FN):
+
+ID do Pedido
+Data do Pedido
+Nome do Cliente	
+Endereço do Cliente(Estado, cidade, bairro, logradouro, número, CEP)
+Produto	
+Quantidade	
+Preço Unitário
+
+Segunda Forma Normal (2FN)
+Para estar na 2FN, a tabela deve estar na 1FN e todos os campos não chave devem depender da chave primária inteira, não apenas de parte dela.
+
+Identificamos que o endereço do cliente e o nome do cliente podem ser armazenados separadamente para evitar redundância.
+
+Tabela Pedidos (2FN):
+
+ID do Pedido	
+Data do Pedido	
+ID do Cliente	
+Produto	
+Quantidade	
+Preço Unitário
+
+Tabela Clientes (2FN):
+
+ID do Cliente	
+Nome do Cliente	
+Estado
+cidade
+bairro
+logradouro
+número
+CEP
+
+Terceira Forma Normal (3FN)
+Para estar na 3FN, a tabela deve estar na 2FN e todos os campos não chave devem depender apenas da chave primária. Isso significa que não deve haver dependências transitivas.
+
+Aqui, identificamos que o preço unitário depende do produto e não do pedido. Portanto, criamos uma tabela de produtos separada.
+
+Tabela Pedidos (3FN):
+
+ID do Pedido,Data do Pedido,ID do Cliente,ID do Produto,Quantidade
+
+Tabela Clientes (3FN):
+
+ID do Cliente,Nome do Cliente,Estado,cidade,bairro,logradouro,número,CEP
+
+Tabela Produtos (3FN):
+
+ID do Produto,Nome do Produto,Preço Unitário
+
+Essa é a estrutura normalizada das tabelas de um banco de dados até a 3ª forma normal (3FN). Isso ajuda a eliminar redundâncias e dependências transitivas, garantindo a integridade dos dados

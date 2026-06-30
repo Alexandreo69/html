@@ -1,0 +1,11 @@
+Para um site de relacionamentos onde as pessoas podem enviar mensagens para grupos de interesse, idade e genero, e  pode ser respondido pelo email, aplique as 3 formas normais e crie as tabelas necessárias, definindo as chaves primárias, os campos e seus relacionamentos, sendo necessários os campos a seguir:(usar o REPLIT.COM)
+
+data_envio
+conteudo
+grupos de interesse
+nome	
+email	
+senha	
+data_nascimento	
+genero	
+localização
