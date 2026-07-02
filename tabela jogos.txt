@@ -1,0 +1,18 @@
+
+CREATE TABLE jogos (
+    ID_jogo INT NOT NULL AUTO_INCREMENT,
+    time1 VARCHAR(50) NOT NULL,
+    time2 VARCHAR(50) NOT NULL,
+    PRIMARY KEY (ID_jogo)
+);
+INSERT INTO jogos (time1, time2) VALUES
+('França', 'Holanda'),
+('França', 'Noruega'),
+('França', 'Brasil'),
+('França', 'Argentina'),
+('Holanda', 'Noruega'),
+('Holanda', 'Brasil'),
+('Holanda', 'Argentina'),
+('Noruega', 'Brasil'),
+('Noruega', 'Argentina'),
+('Brasil', 'Argentina');
