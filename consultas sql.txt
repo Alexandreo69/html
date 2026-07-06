@@ -1,0 +1,26 @@
+Consulta 1.1: Listar todos os clientes cadastrados que nasceram a partir do ano 2000
+Consulta 1.2: Calcular o valor total apostado na plataforma
+Consulta 1.3: Encontrar as apostas feitas em uma data específica onde o palpite do primeiro gol foi do "TimeA"
+Consulta 1.4: Listar os jogos cadastrados onde o "TimeA" joga em casa (time1)
+Consulta 1.5: Contar quantos clientes possuem o número de celular cadastrado (não nulo)
+Consulta 2.1: Listar o nome do cliente e o valor de todas as apostas que ele fez
+Consulta 2.2: Total acumulado de apostas feitas por cada cliente (exibindo Nome e Email)
+Consulta 2.3: Buscar o nome e o celular dos clientes que apostaram um valor maior que R$ 100,00
+Consulta 2.4: Listar os jogos oficiais que receberam apostas baseando-se no confronto exato de times
+Consulta 2.5: Encontrar clientes que se cadastraram mas nunca realizaram nenhuma aposta
+Consulta 2.6: Exibir o maior valor apostado em cada jogo cadastrado no sistema
+Consulta 2.7: Contar quantas apostas cada cliente realizou, ordenando pelos que mais apostaram
+Consulta 3.1: Listar o Nome do cliente, os times do jogo oficial e o Placar que ele apostou
+Consulta 3.2: Buscar o Nome e o CPF dos clientes que apostaram no "TimeA" como vencedor em um jogo listado na tabela de jogos
+Consulta 3.3: Calcular a média de valor apostado por cliente para o ID de um jogo específico
+Consulta 3.3: Calcular a média de valor apostado por cliente para o ID de um jogo específico
+Consulta 3.5: Mostrar o total de dinheiro movimentado em apostas por cada jogo oficial, exibindo o ID do jogo e o nome do último apostador (ou agrupado por cliente)
+Consulta 3.6: Encontrar quais clientes nascidos antes de 1990 apostaram em jogos onde o "TimeB" era o visitante (time2)
+Consulta 3.7: Listar o ID do jogo e o Nome dos clientes que fizeram apostas com valor acima da média geral de todas as apostas do banco
+Consulta 3.8: Exibir um relatório de apostas detalhado mostrando Nome, ID_jogo, Valor e a Data da aposta, filtrando apenas por apostas realizadas no mês atual (ex: Julho de 2026)
+
+
+
+
+
+
