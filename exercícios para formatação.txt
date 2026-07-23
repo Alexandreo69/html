@@ -1,0 +1,49 @@
+Aqui está uma proposta completa com o texto em formato simples e, logo em seguida, o conjunto de exercícios práticos para os alunos treinarem as ferramentas da guia Página Inicial do Microsoft Word.
+
+Texto Base (Sem Formatação)
+A Inteligencia Artificial e um dos campos mais fascinantes e de rapido crescimento da tenologia moderna. Trata-se da capacidade de maquinas e sistemas de computador simularem a inteligencia humana, executando tarefas como aprendizado, raciocinio, resolucao de problemas e tomada de decisoes. Nos ultimos anos, a IA deixou de ser apenas um conceto de ficcao cientifica para se tornar uma parte integrante do nosso cotidiano. Nos encontramos a IA em diversas aplicacoes dirias, desde os assistentes virtuais em nossos smartphones ate os sistemas de recomendacao em plataformas de streaming e redes sociais. Na medicina, ela auxilia no diagnostico precoce de doencas; no setor financeiro, ajuda a detectar fraudes em tempo real; e no transporte, impulsiona o desenvolvimento de veiculos autonomos. O funcionamento da IA baseia-se em grandes volumes de dados e algoritmos avancados. O aprendizado de maquina, ou Machine Learning, e uma subarea fundamental da IA que permite aos sistemas aprenderem e melhorarem com a experiencia, sem serem explicitamente programados para cada tarefa. No entanto, o avanco acelerado da IA tambem traz desafios e questoes eticas importantes, como o impacto no mercado de trabalho, a privacidade dos dados e o uso responsavel dessa tecnologia. O futuro da Inteligencia Artificial promete transformacoes ainda mais profundas na sociedade. ComprEEnder o seu funcionamento e suas aplicacoes e essencial para que possamos utilizar essa ferramenta de maneira consciente e proveitosa, garantindo que o seu desenvolvimento traga beneficios para toda a humanidade.
+
+Atividades Práticas de Formatação (Aba "Página Inicial")
+Instruções para os alunos: Copie o texto acima para um documento em branco no Microsoft Word e utilize apenas a guia "Página Inicial" para realizar o passo a passo a seguir.
+
+1. Ajuste de Fonte e Tamanho (Grupo Fonte)
+Selecione todo o texto (Ctrl + T) e altere a fonte para Arial.
+
+Defina o tamanho do texto do corpo para 12 pt.
+
+2. Criação e Destaque do Título (Grupo Fonte e Parágrafo)
+Adicione o título "A REVOLUÇÃO DA INTELIGÊNCIA ARTIFICIAL" acima do texto.
+
+Centralize o título no documento.
+
+Aplique o estilo Negrito no título e aumente o tamanho da fonte para 18 pt.
+
+Altere a cor da fonte do título para Azul Escuro.
+
+3. Alinhamento e Espaçamento dos Parágrafos (Grupo Parágrafo)
+Divida o texto base em 3 parágrafos lógicos (exemplo: do início até "ficção científica", do "Nós encontramos" até "uso responsável", e o trecho final).
+
+Selecione os parágrafos do corpo do texto e defina o alinhamento como Justificado.
+
+Ajuste o espaçamento entre linhas dos parágrafos para 1,5.
+
+4. Destaques e Estilos no Texto (Grupo Fonte)
+Localize o termo em inglês "Machine Learning" e aplique o estilo Itálico.
+
+Encontre as palavras "aprendizado", "raciocínio" e "resolução de problemas" e aplique o formato Sublinhado a elas.
+
+Destaque a frase "O futuro da Inteligencia Artificial promete transformacoes ainda mais profundas na sociedade" usando a Cor do Realce do Texto (marcadador de texto) na cor Amarela.
+
+5. Criação de uma Lista Marcada (Grupo Parágrafo)
+Localize no texto o trecho que fala sobre a medicina, setor financeiro e transporte, e transforme essas três áreas em uma Lista com Marcadores (pontos pretos):
+
+Medicina: diagnóstico precoce de doenças
+
+Setor financeiro: detecção de fraudes
+
+Transporte: veículos autônomos
+
+6. Recorte e Sombreamento (Grupo Parágrafo e Área de Transferência)
+Aplique uma Cor de Sombreamento (Cinza claro) no parágrafo final para destacá-lo como uma conclusão.
+
+Utilize o recurso Pincel de Formatação para copiar a formatação da palavra "Inteligência" e aplicar sobre o termo "tecnologia" ao longo do texto.
